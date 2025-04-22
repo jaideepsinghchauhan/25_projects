@@ -1,0 +1,43 @@
+
+.accordion-header {
+  font-weight: 800;
+  font-size: larger;
+}
+.accordion-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Items align left inside */
+  width: 600px; /* Fixed width (or responsive) */
+  margin: 0 auto; /* Center the parent horizontally */
+}
+
+.accordion-item {
+  width: 100%; /* Full width inside parent */
+  margin-bottom: 10px;
+}
+
+.accordion-header,
+.accordion-body {
+  text-align: left; /* Align text to the left */
+  padding: 10px;
+}
+
+.selection-cursor {
+  cursor: pointer;
+}
+button {
+  padding: 2px 5px;
+  margin: 10px 0;
+  background-color: #4caf50; /* Green base */
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+

@@ -1,0 +1,50 @@
+/* Theme: Dark Mode */
+.dark {
+  background-color: #1e1e1e;
+  color: lightblue;
+  transition: all 0.3s ease-in-out;
+}
+
+.dark button {
+  background-color: #519866;
+  color: #1e1e1e;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.dark button:hover {
+  background-color: #a1c1d1;
+}
+
+/* Theme: Light Mode */
+.light {
+  background-color: #ffffff;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+}
+
+.light button {
+  background-color: #a1c1d1;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.light button:hover {
+  background-color: #555;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
