@@ -22,6 +22,10 @@
 // import TestUseWindowResize from "./components/use-window-resize/TestUseWindowResize";
 // import ScrollToTopAndBottom from "./components/scroll-to-top-and-bottom";
 // import Weather from "./components/weather-app";
+
+// import FoodRecipe from "./components/food-recipe";
+// import GlobalStateContext from "./components/food-recipe/context";
+
 import "./App.css";
 
 function App() {
@@ -55,6 +59,11 @@ function App() {
       {/* <ScrollToTopAndBottom /> */}
 
       {/* <Weather /> */}
+
+      {/* comment App.css text align for this file, and uncomment when this food recipe is not being used*/}
+      {/* <GlobalStateContext>
+        <FoodRecipe />
+      </GlobalStateContext> */}
     </div>
   );
 }
