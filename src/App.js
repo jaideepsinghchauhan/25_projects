@@ -26,6 +26,9 @@
 // import FoodRecipe from "./components/food-recipe";
 // import GlobalStateContext from "./components/food-recipe/context";
 
+// import ShoppingCart from "./components/shopping-cart-with-redux-toolkit";
+// import { Provider } from "react-redux";
+// import store from "./components/shopping-cart-with-redux-toolkit/store";
 import "./App.css";
 
 function App() {
@@ -64,6 +67,11 @@ function App() {
       {/* <GlobalStateContext>
         <FoodRecipe />
       </GlobalStateContext> */}
+
+      {/* ShoppingCart with redux toolkit and spinner */}
+      {/* <Provider store={store}>
+        <ShoppingCart />
+      </Provider> */}
     </div>
   );
 }
