@@ -36,6 +36,7 @@
 // import Main from "./components/expense-tracker/components/main";
 
 import "./App.css";
+import MultiStepForm from "./components/multi-step-form";
 
 function App() {
   return (
@@ -95,6 +96,8 @@ function App() {
           </Container>
         </ChakraProvider>
       </GlobalState> */}
+
+      <MultiStepForm />
     </div>
   );
 }
